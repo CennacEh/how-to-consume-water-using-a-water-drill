@@ -2,57 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>How to consume water using a construction wheel</title>
+  <title>Unusual Hydration Methods</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     :root {
-      --bg: #f9f9f9;
-      --text: #111;
-      --accent: #4a90e2;
-    }
-
-    [data-theme="dark"] {
-      --bg: #111;
-      --text: #eee;
-      --accent: #7ab5ff;
+      --bg: #f7f7f7;
+      --text: #1a1a1a;
+      --accent: #1e88e5;
+      --border: #ccc;
     }
 
     body {
       background: var(--bg);
       color: var(--text);
-      font-family: system-ui, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
       padding: 2rem;
-      line-height: 1.7;
-      transition: background 0.3s, color 0.3s;
+      line-height: 1.6;
     }
 
-    header {
+    header, footer {
       max-width: 800px;
-      margin: 0 auto 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      margin: auto;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
     }
 
-    h1 {
+    header h1 {
       font-size: 2rem;
       margin: 0;
     }
 
-    button {
-      background: var(--accent);
-      border: none;
-      color: white;
-      padding: 0.4rem 1rem;
-      border-radius: 6px;
-      cursor: pointer;
-      font-size: 0.9rem;
-    }
-
     main {
       max-width: 800px;
-      margin: auto;
+      margin: 2rem auto;
     }
 
     article {
@@ -61,7 +44,7 @@
 
     h2 {
       color: var(--accent);
-      margin-top: 2rem;
+      margin-bottom: 0.5rem;
     }
 
     a {
@@ -73,12 +56,21 @@
       text-decoration: underline;
     }
 
+    footer {
+      text-align: center;
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #555;
+      border-top: 1px solid var(--border);
+      padding-top: 1rem;
+    }
+
     @media (max-width: 600px) {
       body {
         padding: 1rem;
       }
 
-      h1 {
+      header h1 {
         font-size: 1.5rem;
       }
     }
@@ -86,22 +78,24 @@
 </head>
 <body>
   <header>
-    <h1>How to consume water using a 120V Constuction drill</h1>
-    <button onclick="toggleTheme()">Toggle Theme</button>
+    <h1>Unusual Hydration Methods</h1>
   </header>
+
   <main>
     <article>
-      <h2>Article Title</h2>
-      <p>To consume water normally you'd put it in a cup and drink it, however some people are unable to do this and they have Constuction drills instead of cups.
-        To consume water using a Constuction Drill, first you'd need to replace the head with a more sphere-ish metal head, then if the bottom of the drill is empty you may close it with Metal or any hard object, then simply pour in the water and drink it, for more flavor you may activate the drill to mix the water then you can drink it afterwards.
-      </p>
+      <h2>Drinking Water with a Construction Drill</h2>
+      <p>Normally, you’d pour water into a cup and simply drink it — a straightforward and efficient process. However, some individuals don’t use cups at all. Instead, they attempt to hydrate using something wildly unconventional: a construction drill.</p>
+
+      <p>To begin this peculiar method, the drill’s head must be replaced with a spherical or rounded metal piece — ideally something that can safely contain liquids. If the drill’s base is open, you’ll need to seal it using metal or any sturdy material to prevent leakage.</p>
+
+      <p>Once the cavity is enclosed, pour the water into this improvised container. For extra flair (or perhaps to enhance the flavor), you can activate the drill briefly to mix the water. After that, simply tilt it and drink — carefully.</p>
+
+      <p>While highly impractical and mildly dangerous, this method highlights just how creative — or desperate — some hydration solutions can get.</p>
     </article>
   </main>
-  <script>
-    function toggleTheme() {
-      const theme = document.body.getAttribute("data-theme")
-      document.body.setAttribute("data-theme", theme === "dark" ? "light" : "dark")
-    }
-    document.body.setAttribute("data-theme", "light")
-  </script>
-</bo
+
+  <footer>
+    © 2025 Cennac
+  </footer>
+</body>
+</html>
